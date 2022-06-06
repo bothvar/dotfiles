@@ -1,0 +1,9 @@
+##################################
+# xbindkeys configuration #
+##################################
+
+"brightnessctl s +10%"
+    XF86MonBrightnessUp
+
+"brightnessctl s 10%-"
+    XF86MonBrightnessDown
