@@ -8,4 +8,5 @@ slstatus -s | lemonbar -f "Source Code Pro" -B "#282828" -F "#8ec07c" &
 feh --bg-scale ~/images/tux-rainbow.jpg &
 picom &
 st -e /bin/ash -l &
+mpd &
 exec bspwm
