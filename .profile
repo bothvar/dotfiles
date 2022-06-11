@@ -24,11 +24,11 @@ umask 022
 
 # use nicer PS1 for bash and busybox ash
 if [ -n "$BASH_VERSION" -o "$BB_ASH_VERSION" ]; then
-	PS1='λ :: \w '
+	PS1=' λ :: \w '
 # set up fallback default PS1
 else
 	: "${HOSTNAME:=$(hostname)}"
-	PS1='λ :: $PWD'
+	PS1=' λ :: $PWD'
 	[ "$(id -u)" -eq 0 ] && PS1="${PS1}# " || PS1="${PS1}\$ "
 fi
 export PS1
