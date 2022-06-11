@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'arcticicestudio/nord-vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdtree'
@@ -6,8 +7,11 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'luochen1990/rainbow'
 call plug#end()
 
+set t_Co=256
+set termguicolors
+
 set background=dark
-colorscheme gruvbox
+colorscheme nord
 
 syntax enable
 set tabstop=4
