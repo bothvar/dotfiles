@@ -4,6 +4,7 @@ export PAGER=vim
 
 HISTFILE="$HOME/.ksh_history"
 HISTSIZE=5000
+set -o emacs
 
 PS1=' λ :: \w '
 
