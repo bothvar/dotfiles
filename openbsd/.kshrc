@@ -1,6 +1,5 @@
 export EDITOR=vim
 export VISUAL=vim
-export PAGER=vim
 
 HISTFILE="$HOME/.ksh_history"
 HISTSIZE=5000
