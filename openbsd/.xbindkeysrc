@@ -1,0 +1,9 @@
+##################################
+# xbindkeys configuration #
+##################################
+
+"xbacklight -inc 5"
+    XF86MonBrightnessUp
+
+"xbacklight -dec 5"
+    XF86MonBrightnessDown
